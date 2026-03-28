@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body {
+height: 3000px;
+}
+
+#button1 {
+  border: rgb(241, 241, 241);
+  border-radius: 100%; 
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  cursor: pointer;
+  position: absolute;
+  right: 10PX;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+  background-color: lightgray;
+}
+
+#shirt {
+    position: relative;
+    display: inline-block;
+    margin: 150px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    left: 35%;
+}
+
+#shirt img {
+    width: 250px;
+    height: auto;
+}
+
+#off {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+
+#cart {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 8px 15px;
+    border: 1px solid black;
+}
+
+#greybg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.6);
+}
+    </style>
+</head>
+<body>
+    <button id="button1">&times;</button>
+
+    <div class="fixed"></div>
+
+ 
+<div id="shirt">
+    <img src="shirt.jpg" alt="SHIRT">
+    <div id="greybg"></div>
+    <div id="off">20% OFF</div>
+    <div id="cart">Add to Cart</div>
+</div>
+</html>

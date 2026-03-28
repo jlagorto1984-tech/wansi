@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #dbeef7;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #90878e;
+}
+
+#navbar a {
+    display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 16px;
+}
+
+#navbar a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#navbar2 {
+    width: 20%;
+    float: left;
+}
+
+#navbar2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar2 a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#navbar2 a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+main {
+    width: 80%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+aside
+            {
+            background-color: #b0b5ed;
+            width: 32%;
+            margin: 5px;
+            float: left;
+            }
+            section
+            {
+            background-color: #fae7eb;
+            float: left  ;
+            width: 32%;
+            margin: 5px;
+            }
+            article
+            {
+            background-color: #b0b5ed;
+            float: left  ;
+            width: 32%;
+            margin: 5px;
+            }
+            footer
+            {
+            background-color: #dbeef7;
+            height: 100px;
+            clear: both;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            }
+
+            p
+            {
+            text-align: justify;
+            margin: 20px;
+            }
+            h2
+            {
+                margin: 20px;
+            }
+@media screen and (max-width:800px) {
+
+    #navbar2, main {
+        width: 100%;
+        float: none;
+    }
+
+    aside, section, article {
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header><h1>HEADER</h1></header>
+
+<nav id="navbar">
+            <ul>
+                <li>
+                    <a href="https://leeshawn-gomez.github.io/wansiportfolio/">Home</a>
+                </li>
+                <li>
+                    <a href="#news">News</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav id="navbar2">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#news">News</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </nav>
+
+<main>
+    <aside>
+        <h2>Aside</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita deleniti quas, commodi quos qui dolor ut obcaecati ex enim. Nam error, ullam dolorem ratione vitae vero quae laborum nisi?</p>
+        </aside>
+
+    <section>
+        <h2>Section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita deleniti quas, commodi quos qui dolor ut obcaecati ex enim. Nam error, ullam dolorem ratione vitae vero quae laborum nisi?</p>
+    </section>
+
+    <article>
+        <h2>Article</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita deleniti quas, commodi quos qui dolor ut obcaecati ex enim. Nam error, ullam dolorem ratione vitae vero quae laborum nisi?</p>
+    </article>
+</main>
+
+<footer>
+    <h1>FOOTER</h1>
+</footer>
+
+</body>
+</html>
