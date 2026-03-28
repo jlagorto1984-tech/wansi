@@ -63,7 +63,7 @@ window.addEventListener("scroll", () => {
     
     atBottom = true;
     text.textContent = "back to top";
-    icon.src = "assets/up.svg";
+    icon.src = "website/assets/up.svg";
   } else {
     
     atBottom = false;
