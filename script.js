@@ -63,12 +63,12 @@ window.addEventListener("scroll", () => {
     
     atBottom = true;
     text.textContent = "back to top";
-    icon.src = "website/assets/up.svg";
+    icon.src = "Assets/up.svg";
   } else {
     
     atBottom = false;
     text.textContent = "scroll down";
-    icon.src = "assets/icons/down.svg";
+    icon.src = "Assets/icons/down.svg";
   }
 });
 const nav = document.querySelector(".nav");
