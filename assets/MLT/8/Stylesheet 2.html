@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stylesheet 2</title>
+
+<style>
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #bbf3e1;
+  color: #222;
+  padding: 40px;
+}
+
+header h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+#no-st a{
+  color: #77f0e8;
+}
+#content h2 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+#content p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+#lk a {
+  color: #77f0de;
+  text-decoration: none;
+  margin-right: 8px;
+}
+#lk a:hover {
+  text-decoration: underline;
+}
+#no-st a:hover {
+  text-decoration: underline;
+}
+a:link {
+  color: #000000;    
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+       
+}
+
+a:hover {
+  color: #000000;     
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#sidebar button.active{
+    background:white;
+    color:#bbe0f3;
+    border:2px solid #bbf3cd;
+    padding: 8px;
+}
+#sidebar button {
+  background: #bbf3f0;
+  border: 10%;
+  padding: 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+#sidebar button:hover {
+  opacity: 0.85;
+  background: #fcfdff;
+  
+}
+
+#footer {
+  margin-top: 25px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+#footer h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#bot {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to My Homepage</h1>
+  <p>Use the menu to select different Stylesheets</p>
+</header>
+
+<div id="container">
+
+  <div id="content">
+    <h2>Same Page Different Stylesheets</h2>
+    <p>
+      This is a demonstration of how different stylesheets can change the layout
+      of your HTML page. You can change the layout of this page by selecting
+      different stylesheets in the menu.
+    </p>
+
+    <div id="lk">
+      <a href="Stylesheet 1.html">Stylesheet 1</a>
+      <a href="Stylesheet 2.html">Stylesheet 2</a>
+      <a href="Stylesheet 3.html">Stylesheet 3</a>
+      <a href="Stylesheet 4.html">Stylesheet 4</a>
+    </div>
+<br>
+    <h2>No Styles</h2>
+    <p>
+      This page uses DIV elements to group different sections of the HTML page.
+      Click here to see how the page looks like with no stylesheet.
+    </p>
+    <p id="no-st"><a href="No Stylesheet.html">No Stylesheet.</a></p>
+  </div>
+
+  <div id="sidebar">
+    <button><a href="Stylesheet 1.html">Stylesheet 1</a></button>
+    <button class="active"><a href="Stylesheet 2.html"><b>Stylesheet 2</b></a></button>
+    <button id="e"><a href="Stylesheet 3.html">Stylesheet 3</a></button>
+    <button><a href="Stylesheet 4.html">Stylesheet 4</a></button>
+    <button><a href="No Stylesheet.html">No Stylesheet</a></button>
+  </div>
+
+</div>
+
+<div id="footer">
+  <h3>Side-Bar</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  </p>
+</div>
+
+<div id="bot">
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesheet 3</title>
+
+<style>
+body 
+{
+    font-family: Verdana, Geneva, sans-serif;;
+    background-color: #e5e5e5;
+    margin: 40px;
+    font-weight: 50;
+}
+
+h2 {
+    color: #ab0909;
+    font-size: 36px;
+   margin-bottom: 5px;   
+}
+
+h3 {
+    color: #a40a0a;
+    font-size: 28px;
+}
+
+h4 {
+    color: #af0707;
+   font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+p a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+#line{
+    text-decoration: underline;
+}
+ul li:hover {
+    background-color:#a00909 ;
+}
+
+#menu .button{
+    background:#990505;
+    color:white;
+}
+
+#menu li a{
+    text-decoration: none;
+}
+.sidebar {
+    background-color: #dcdcdc;
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+#line a:hover {
+    color: #af0b0b
+}
+    
+</style>
+</head>
+
+<body>
+
+    <h2>Welcome to My Homepage</h2>
+    <p>Use the menu to select different Stylesheets</p>
+
+    <ul id="menu">
+        <li><a href="Stylesheet 1.html">Stylesheet 1</a></li>
+        <li><a href="Stylesheet 2.html">Stylesheet 2</a></li>
+        <li class="button"><a href="Stylesheet 3.html">Stylesheet 3</a></li>
+        <li><a href="Stylesheet 4.html">Stylesheet 4</a></li>
+        <li><a href="No Stylesheet.html">No Stylesheet</a></li>
+    </ul>
+
+    <p>
+    This is a demonstration of how different stylesheets can change the layout of your HTML page. 
+    You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+    </p>
+        <p id="line"><a href="Stylesheet 1.html"> Stylesheet 1</a>, <a href="Stylesheet 2.html">  Stylesheet 2</a>, <a href="Stylesheet 3.html">  Stylesheet 3</a>, 
+        <a href="Stylesheet 4.html">  Stylesheet 4</a>.</p>
+    <h3>No Styles</h3>
+    <p>
+        This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+    </p>
+    <p id="line"><a href="No Stylesheet.html">No Stylesheet</a></p>
+    </p>
+
+    <div class="sidebar">
+        <h4>Side-Bar</h4>
+        <p>
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+    </div>
+
+    <p id="ftr">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in 
+        hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent 
+        luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    </p>
+
+</body>
+</html>
