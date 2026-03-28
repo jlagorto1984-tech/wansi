@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Task 6 - Display Property</title>
+    <style>
+        .tb 
+{
+    display: block;
+    width: 150px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+span.a1 
+{
+    background-color: #ffffff;
+    color: black;
+    padding: 15px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+span.a2
+{
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+}
+span.a3 
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.GS 
+{ 
+    background-color: #dfdfdf;
+    width: 500px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.GL 
+{
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 200px;
+}
+
+.SB 
+{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.container 
+{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.SIGNBOX
+{
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 280px;
+    border-radius: 5px;
+}
+
+.SIGNBOX input 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+   border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.NROW
+{
+    display: flex;
+    gap: 10px;
+}
+
+.NROW input 
+{
+    width: 50%;
+}
+
+.SIGNUPBTN 
+{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #3b82f6, #2563eb);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.uberbox 
+{
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 320px;
+    border-radius: 5px;
+       color: black;
+}
+
+.uberbox h2 
+{
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.uberbox input 
+{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+}
+
+.UBER
+{
+    margin-top: 10px;
+}
+
+.request 
+{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.schedule 
+{
+    padding: 10px 15px;
+    background-color: #d9d9d9;
+    border: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+<input type="text" class="tb" placeholder="Name">
+    <input type="text" class="tb" placeholder="Email">
+
+     <div class="a1">
+        <p class="a2">
+            Thanks for chatting with our customer support.<br> 
+            Would you like to take our quick survey?
+        </p>
+        <button class="a3">Yes</button>
+        <button class="a3">No</button>
+    </div>
+<br>
+    <div class="GS">
+        <img src="GOGOL.png" class="GL">
+
+        <form action="https://www.google.com/search"  method="get">
+            <input type="text" name="q" class="SB" placeholder="Search Google or type a URL">
+        </form>
+    </div>
+    <div class="container">
+
+        <div class="SIGNBOX">
+            <div class="NROW">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+            <input type="email" placeholder="Email">
+            <button class="Signupb">Sign Up</button>
+        </div>
+
+
+        <div class="uberbox">
+            <h2>Request a ride now</h2>
+            <input type="text" placeholder="Enter pickup location">
+            <input type="text" placeholder="Enter destination">
+
+            <div class="UBER">
+                <button class="request">Request now</button>
+                <button class="schedule">Schedule for later</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
